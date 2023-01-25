@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Course Search Functionality Test" parallel = "tests" thread-count="2">
+	<test name="Verify Course Search Functionality Test">
+		<classes>
+			<class
+				name="com.automation.framework.tests.CourseSearchFunctionalityTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
